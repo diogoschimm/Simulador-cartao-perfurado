@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Computer</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Programando com Cartões Perfurados (<a href="funcionamento.html">Sobre</a>)</h1>
+      <div class="container-card">
+        <div class="area-programavel">
+          <h2>
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789,./;:-<>+¬¢|_@!"#$%&'()*=SPACE
+          </h2>
+          <div id="cartao"></div>
+          <h2>LINHA DE COMANDO</h2>
+          <input type="text" id="comando" />
+        </div>
+        <div class="programa-gerado">
+          <h2>PROGRAMA GERADO</h2>
+          <div id="programa"></div>
+        </div>
+      </div>  
+    </div>
+    <script defer src="./scripts/chars.js"></script>
+    <script defer src="./scripts/computer.js"></script>
+  </body>
+</html>
