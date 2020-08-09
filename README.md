@@ -3,4 +3,4 @@ Software Simulador de Cartão Perfurado
 
 # Link do Projeto
 
-http://diogoschimm.eti.br/
+https://codepen.io/diogoschimm/pen/eYZNZbR
